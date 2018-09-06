@@ -151,7 +151,7 @@ for i in range(1,61):
 print("General Behaviour")
 print(result)
 
-
+# save the file with data 
 csvf = pd.DataFrame({"S.No": sno, "Attentiveness": active, "Sem Marks": sem, "MBA": mba, "MS": ms, "M.Tech": mtech, "GOVTJOB": govtjob, "IT": it, "ENTREPRENEUR": entrepreneur, "sports": sports, "music": music, "dance": dance, "others": others, "StudentBehaviour":result})
 csvf.to_csv("AcademicBehaviour.csv",index="false")
 print(csvf)
